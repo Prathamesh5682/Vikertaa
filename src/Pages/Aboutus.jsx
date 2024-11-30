@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import bappaImage from '../images/bappa.png';
 
 const Aboutus = () => {
     return (
@@ -19,17 +20,17 @@ const Aboutus = () => {
             {/* Our Project Images */}
             <div className="flex flex-wrap justify-center gap-4 p-4 mt-5">
                 <img
-                    src="bappa.png"
+                    src={bappaImage}
                     alt="Photo 1"
                     className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 object-cover rounded-md"
                 />
                 <img
-                    src="bappa.png"
+                    src={bappaImage}
                     alt="Photo 2"
                     className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 object-cover rounded-md"
                 />
                 <img
-                    src="bappa.png"
+                    src={bappaImage}
                     alt="Photo 3"
                     className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 object-cover rounded-md"
                 />
@@ -56,7 +57,7 @@ const Aboutus = () => {
                 </div>
                 <div className="mt-4 md:mt-0 w-full md:w-1/2 flex justify-center p-4">
                     <img
-                        src="bappa.png"
+                        src={bappaImage}
                         alt="Founding Story Image"
                         className="w-full sm:w-96 h-80 object-cover rounded-md"
                     />
